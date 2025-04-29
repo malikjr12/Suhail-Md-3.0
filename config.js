@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "Made With LOVE!"
 
 global.devs = "" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923497749223";
 
 
 
@@ -76,7 +76,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  ownername:process.env.OWNER_NAME|| "ASAD MALIK",
 
 
   errorChat : process.env.ERROR_CHAT || "",
